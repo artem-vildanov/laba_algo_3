@@ -24,6 +24,8 @@ public:
 	vector <Way> get_ways();//гетер массива путей
 	vector <int> get_vertices();//гетер массива вершин
 
+	vector <Coordinate_vertex> get_coordinates();
+
 private:
 
 	//заполнение массива путей, инициализация путей весами
@@ -34,10 +36,10 @@ protected:
 	int ways_amount;
 	int vertices_amount;
 
-	//вектор путей
-	vector <Way> ways;
-
+	vector <Way> ways;//вектор путей
 	vector <int> vertices;//вектор вершин
+	vector <Coordinate_vertex> coordinates;//вектор координат вершин
+
 };
 
 #endif

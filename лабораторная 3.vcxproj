@@ -134,6 +134,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Connected_components.h" />
+    <ClInclude Include="Coordinates.h" />
     <ClInclude Include="Graph.h" />
     <ClInclude Include="MST.h" />
     <ClInclude Include="Way.h" />

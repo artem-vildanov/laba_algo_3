@@ -14,7 +14,7 @@ using std::endl;
 int main()
 {
     setlocale(LC_ALL, "RUS");
-    //srand(time(NULL));
+    srand(time(NULL));
 
     int vertices_amount = 19;
 
@@ -25,7 +25,7 @@ int main()
     MST.output_spanning_tree();
     MST.output_list();
 
-    Connected_components component(MST);
+    Connected_components component(MST, my_graph);
     component.output_small_spanning_tree();
     component.output_adj_matrix();
     component.output_vertices_condition();
