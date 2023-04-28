@@ -15,7 +15,6 @@ class Graph
 
 public:
 
-	Graph();
 	Graph(const int amount);//конструктор с параметром "количество вершин", определяющий количество путей и вызывающий init
 	void output_ways();//вывод путей
 
